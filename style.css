@@ -1,0 +1,50 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    min-height: 0;
+    color: #908caa;
+}
+
+window#waybar {
+    background: #191724;
+}
+
+#workspaces button {
+    padding: 0 2px;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    border-bottom: 3px solid;
+}
+
+#mode, #battery, #cpu  {
+    padding: 0 20px;
+}
+
+#memory {
+  padding: 0 10px 0 0;
+}
+
+#disk {
+  padding: 0 0 0 10px;
+}
+
+#temperature {
+  padding: 0 0 0 20px;
+}
+
+#clock {
+  padding: 0 10px 0 0;
+}
+
+#battery.charging {
+    color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    color: #f53c3c;
+}
