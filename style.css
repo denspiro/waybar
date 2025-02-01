@@ -17,8 +17,14 @@ window#waybar {
     border-bottom: 3px solid transparent;
 }
 
+#workspaces button.visible {
+  border-bottom: 3px solid;
+  border-color: #524f67;
+}
+
 #workspaces button.focused {
-    border-bottom: 3px solid;
+  border-bottom: 3px solid;
+  border-color: #9ccfd8;
 }
 
 #mode, #battery, #cpu  {
